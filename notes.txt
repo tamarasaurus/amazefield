@@ -1,0 +1,26 @@
+Features
+* Show label on input field on focus
+* Keep label if value is not empty
+* Hide on blur
+* Show if required
+
+States
+* Default
+    - not expanded
+    - label hidden
+* Focus
+    - label visible
+    - expanded
+* Blur
+    - value is empty?
+        - label hidden
+        - not expanded
+    - has value
+        - expanded
+        - label visible
+
+Styles
+* Textarea
+* Full-width field
+* Input
+
