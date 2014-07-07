@@ -1,0 +1,25 @@
+{
+  "name": "amazefield",
+  "version": "0.0.1",
+  "description": "accessible label hints for input fields",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tamarasaurus/amazefield.git"
+  },
+  "keywords": [
+    "accessible",
+    "input",
+    "field",
+    "label"
+  ],
+  "author": "Tamara Chahine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tamarasaurus/amazefield/issues"
+  },
+  "homepage": "https://github.com/tamarasaurus/amazefield"
+}
