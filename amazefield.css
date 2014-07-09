@@ -1,0 +1,58 @@
+body{
+    width:500px;
+    font-family: sans-serif;
+}
+strong{
+    width:100%;
+    float:left;
+    margin-bottom:10px;
+}
+input[type="text"]{
+    height:30px;
+    border-radius:3px;
+    width:220px;
+    clear:both;
+    float: left;
+}
+
+input,textarea{
+    padding-top:10;
+    -webkit-transition: padding 0.2s;
+    transition: padding 0.2s;
+    padding-left:10px;
+}
+
+
+.amaze-container.amaze-active input{
+    padding-top:15px;
+}
+.amaze-container.amaze-active textarea{
+    padding-top:20px;
+}
+
+.amaze-container{
+    position:relative;
+    float:left;
+    display:block;
+}
+
+.amaze-container:before{
+    content: attr(data-label);
+    color: #999;
+    font-size:12px;
+    position:absolute;
+    top:10px;
+    left:12px;
+    height:0;
+    float:left;
+    overflow: hidden;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+
+}
+
+.amaze-container.amaze-active:before{
+    height:auto;
+    top: 7px;
+    left:12px;
+}
