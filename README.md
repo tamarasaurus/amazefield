@@ -1,4 +1,4 @@
 amazefield
 ==========
 
-accessible label hints for input fields
+label hints for input fields
