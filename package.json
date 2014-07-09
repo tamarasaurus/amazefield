@@ -1,6 +1,6 @@
 {
   "name": "amazefield",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "accessible label hints for input fields",
   "main": "module.js",
   "scripts": {
