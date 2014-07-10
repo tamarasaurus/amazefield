@@ -9,7 +9,7 @@ module.exports = (function() {
         addField: function(el) {
             var showLabel = (typeof $(el).data('amazefield-show') !== 'undefined');
 
-            $(el).addClass('amazefield').wrap('<div class="amaze-container'+(showLabel ? 'show-label': '')+'"></div>');
+            $(el).addClass('amazefield').wrap('<div class="amaze-container '+(showLabel ? 'show-label': '')+'"></div>');
 
             var field = {
                 el: el,
