@@ -7,7 +7,9 @@ module.exports = (function() {
 
     amazefield.prototype = {
         addField: function(el) {
-            $(el).addClass('amazefield').wrap('<div class="amaze-container"></div>');
+            var showLabel = (typeof $(el).data('amazefield-show') !== 'undefined');
+
+            $(el).addClass('amazefield').wrap('<div class="amaze-container'+(showLabel ? 'show-label': '')+'"></div>');
 
             var field = {
                 el: el,
